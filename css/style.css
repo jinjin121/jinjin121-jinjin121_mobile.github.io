@@ -1,0 +1,523 @@
+.header .gnb {
+    font-family: 'Philosopher', sans-serif;
+    position: fixed;
+    right: 100px;
+    top: 50%;
+    z-index: 999;
+    transform: translateY(-50%);
+    font-size: 20px;
+    text-align: right;
+}
+
+
+.header .gnb li~li {
+    margin-top: 32px;
+}
+
+.header .gnb li:hover {
+    color: orange;
+}
+
+@media(max-width:1600px){
+    .header .gnb {
+        position: fixed;
+        z-index: 999;   
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        transform: translateY(300px);
+        padding: 10px 20px;
+    }
+    .header .gnb li{
+    }
+    .header .gnb li~li {
+        margin-top: 0;
+        margin-left: 16px;
+    }
+}
+
+/* header */
+
+.section {
+    background-image: url(../images/pt01.png);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.web::before {
+    content: "WEB";
+    font-size: 400px;
+    opacity: 0.1;
+    font-weight: 900;
+
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    transform: rotate(-30deg);
+}
+
+.training::before {
+    content: "TRA";
+    font-size: 400px;
+    opacity: 0.1;
+    font-weight: 900;
+
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    transform: rotate(-30deg);
+}
+
+.grapic_in::before {
+    content: "GRA";
+    font-size: 400px;
+    opacity: 0.1;
+    font-weight: 900;
+
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    transform: rotate(-30deg);
+}
+
+.sec01 .sec01_txt_box {
+    font-family: 'HSBombaram21-Regular';
+    position: relative;
+    height: 100%;
+    width: 1310px;
+    margin: 0 auto;
+}
+
+.sec01 .sec01_txt_box .sec01_txt01 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.sec01 .sec01_txt_box .sec01_txt01 span {
+    vertical-align: -3px;
+}
+
+.sec01 .sec01_txt_box .sec01_txt01::before {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 1px;
+    background: orange;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.sec01 .sec01_txt_box .sec01_txt02 {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.sec01 .sec01_txt_box .sec01_txt02::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: orange;
+}
+
+/* .sec01 .sec01_txt_box .sec01_txt02 span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 820px;
+} */
+
+.sec01 .sec01_txt_box h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    line-height: 1.3;
+    width: 100%;
+    text-align: center;
+}
+
+.sec01 .sec01_txt_box h2 span {
+    color: orange;
+}
+
+.sec01 .sec01_txt_box div {
+    font-size: 25px;
+    color: orange;
+}
+
+.sec01 .sec01_txt_box div p {
+    display: block;
+    border: 1px solid gray;
+
+}
+
+/* 
+.sec01 .sec01_txt_box div span {
+    display: block;
+    width: 700px;
+    height: 2px;
+    background: orange;
+}
+ */
+
+.sec01_notice {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
+
+.sec01_notice span {
+    display: block;
+}
+
+.sec01_notice span strong {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* sec01 */
+
+.section .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.project_img img {
+    width: 700px;
+}
+
+.project_box {
+    display: block;
+    font-size: 16px;
+}
+
+.project_box .project_tit {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.project_box .project_tit::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 80px;
+    height: 80px;
+    background: orange;
+    border-radius: 50%;
+}
+
+.project_box .project_tit em {
+    font-size: 15px;
+}
+
+.d_list {
+    margin: 30px 0;
+}
+
+.d_list li {
+    border-bottom: 1px solid #ccc;
+    padding: 14px 0;
+    width: 450px;
+}
+
+.d_list strong {
+    display: inline-block;
+    width: 130px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.d_list span {
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.p01_color01 {
+    color: #151789;
+}
+
+.p01_color02 {
+    color: #007aff;
+}
+
+.p02_color01 {
+    color: #000000;
+}
+
+.p03_color01 {
+    color: #ffa0c5;
+}
+
+.p04_color01 {
+    color: #0a69cb;
+}
+
+.p05_color01 {
+    color: #00978b;
+}
+
+.p05_color02 {
+    color: #025951;
+}
+
+.project_btn {
+    position: relative;
+}
+
+.project_btn a {
+    display: inline-block;
+    border: 1px solid #454545;
+    color: #454545;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.project_btn a:hover {
+    border: 1px solid orange;
+}
+
+/* project */
+
+.training .inner .swiper .swiper-slide .slide_box {
+    margin: 0 auto;
+    position: relative;
+    width: 900px;
+}
+
+.swiper-slide .training_img {
+    border: 1px solid#ddd;
+}
+
+.swiper-slide .training_txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.training_txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fdfdfd;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    display: none;
+}
+
+.slide_box:hover .training_txt {
+    display: flex;
+}
+
+.training_txt .training_in>* {
+    margin-bottom: 10PX;
+}
+
+.slide_box h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.training_txt .training_in strong {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+.training_txt .training_in span {
+    font-size: 13px;
+    font-weight: 300;
+    display: block;
+}
+
+.training_btn a {
+    display: inline-block;
+    border: 1px solid #fdfdfd;
+    width: 150px;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 18px;
+}
+
+.training_btn a:hover {
+    color: #333;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* training */
+
+.grapic_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pretendard Variable", Pretendard;
+}
+
+.grapic_btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.grapic_btn li {
+    border: 2px solid #454545;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.grapic_btn li:hover {
+    border: 2px solid orange;
+}
+
+.grapic_btn li.on {
+    border: 2px solid orange;
+}
+
+.grapic {
+    width: 1300px;
+    font-size: 16px;
+    display: none;
+}
+
+.grapic.on {
+    display: block;
+}
+
+.grapic figure {
+    display: flex;
+    align-items: center;
+}
+
+.grapic figure figcaption {
+    padding: 0 20px;
+}
+
+.grapic figure figcaption h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.grapic figure strong {
+    font-size: 20px;
+    font-weight: 500;
+    flex: 0 0 100px;
+}
+
+.grapic figure span {
+    line-height: 1.5;
+    word-break: keep-all;
+}
+
+.grapic figure img {
+    width: 800px;
+
+}
+
+.grapic figure figcaption .grapic_txt>li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+}
+
+.grapic figure figcaption .grapic_txt li {
+    line-height: 1.5;
+}
+
+/* Grapic */
+
+.sec09 .sj_img {
+    display: block;
+    width: 600px;
+    position: relative;
+}
+
+.sec09 .sj_img img {
+    position: relative;
+    z-index: 999;
+}
+
+.sec09 .sj_img::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.sec09 .sj_txt h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: orange;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.sec09 .sj_txt ul ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sec09 .sj_txt>ul>li:last-child strong {
+    padding: 10px 0;
+}
+
+.sec09 .sj_txt ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.sec09 .sj_txt strong {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.sec09 .sj_txt li ul li {
+    border: none;
+}
